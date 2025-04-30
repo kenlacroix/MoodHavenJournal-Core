@@ -8,5 +8,12 @@
   <ItemGroup>
     <PackageReference Include="xunit" Version="2.9.3" />
   </ItemGroup>
+  
+  <PropertyGroup>
+  <!-- stop SDK from generating any assembly attributes -->
+  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
+</PropertyGroup>
 
 </Project>
